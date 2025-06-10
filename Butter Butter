@@ -1,0 +1,22 @@
+local handAndysCounter = 1 
+local sigma = handAndysCounter + 1
+
+local function amISigma()
+  if sigma * sigma == 4 then
+  print("you are sigma")
+  else
+    print("you are not sigma")
+  end
+end
+  
+amISigma()
+
+while handAndysCounter <= 10 do
+  print("Need some butter naan?")
+  handAndysCounter = handAndysCounter + 1
+  if handAndysCounter == 11 then
+    print("WHY DID YOU REDEEM IT!")
+    else
+      print("Yes")
+  end
+end
